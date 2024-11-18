@@ -1,4 +1,4 @@
-import { html } from 'https://cdn.jsdelivr.net/npm/amazed/dist/amazed.full-esm.js';
+import { html } from 'https://cdn.jsdelivr.net/npm/mettle/dist/mettle.full-esm.js';
 import {
   domInfo,
   onMounted,
@@ -7,7 +7,7 @@ import {
   reactive,
   ref,
   watchProps,
-} from 'https://unpkg.com/amazed-web-components@0.0.3/dist/amazed-web-components.esm.js';
+} from 'https://unpkg.com/mettle-web-components@0.1.1/dist/mettle-web-components.esm.js';
 
 export const MyComponent = defineComponent(() => {
   const state = reactive({
